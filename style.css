@@ -1,0 +1,25 @@
+h1{
+    background-color:orange ;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    box-shadow: 10px 10px 40px red;
+}
+body{
+    background-image: url("background.jpg");
+}
+canvas{
+    background-color: rgb(216, 179, 130);
+    animation-name: anim ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    from{
+    box-shadow: 3px 3px 20px rgb(20, 122, 185);
+    }
+    to{
+        box-shadow: 3px 3px 20px rgb(34, 17, 185);
+    }
+
+}
